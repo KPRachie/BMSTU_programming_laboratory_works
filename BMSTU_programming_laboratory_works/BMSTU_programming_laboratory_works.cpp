@@ -15,6 +15,8 @@ bool check_if_belongs(float x, float y) {
         return false;
     }
 }
+
+
 int main() {
     float x, y;
     std::cout << "Please, enter x and y: ";
@@ -26,6 +28,7 @@ int main() {
     }
     return 0;
 }
+
 
 //tests:
 //1. -0.5 0
