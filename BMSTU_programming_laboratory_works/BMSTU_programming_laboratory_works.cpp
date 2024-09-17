@@ -16,7 +16,7 @@ bool check_if_belongs(float x, float y) {
 }
 int main() {
     float x, y;
-    std::cout << "Please, enter your numbers: ";
+    std::cout << "Please, enter x and y: ";
     std::cin >> x >> y;
     if (check_if_belongs(x, y)) {
         std::cout << "It's belongs!";
